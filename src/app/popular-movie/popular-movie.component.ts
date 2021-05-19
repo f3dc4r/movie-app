@@ -24,3 +24,13 @@ export class PopularMovieComponent implements OnInit {
   }
 
 }
+
+/*
+  TODO
+  Creare una tabella ordinabile e paginabile
+  Passare i dati dell'array nella tabella
+  Migliorare la grafica
+
+
+
+*/
