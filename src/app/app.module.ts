@@ -11,12 +11,15 @@ import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatFormFieldModule } from '@angular/material/form-field';
-
+import { MovieDetailsComponent } from './movie-details/movie-details.component';
+import {MatDialogModule} from '@angular/material/dialog'; 
+import {MatCardModule} from '@angular/material/card'; 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PopularMovieComponent
+    PopularMovieComponent,
+    MovieDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDialogModule,
+    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

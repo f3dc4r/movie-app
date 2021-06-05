@@ -1,0 +1,13 @@
+<mat-card class="movie-card">
+    <mat-card-header>
+      <div mat-card-avatar class="movie-header-image"><img src="https://image.tmdb.org/t/p/w45/{{poster_path}}"></div>
+      <mat-card-title>{{title}}</mat-card-title>
+      <mat-card-subtitle>ID: {{id}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image class="movie-image" src="https://image.tmdb.org/t/p/w300/{{poster_path}}" alt="Photo of {{title}}">
+    <mat-card-content>
+      <p>
+        {{overview}}
+      </p>
+    </mat-card-content>
+  </mat-card>
